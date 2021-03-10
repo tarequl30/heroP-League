@@ -12,24 +12,25 @@
     width: 100%;
 }
 .dummyInfo p{
+    color: white;
     margin: 20px 150px ;
 }
 .detail{
     width: 50%;
-    
+    color: white;
     margin-right: 300px;
 }
 .icon{
-   
-    margin-left: 280px;
-    padding-left: 300px;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    display: flex;
+    /* margin-left: 280px;
+    padding-left: 300px; */
 }
 .img img{
     margin-left: 200px;
 }
-.icon button{
-    background-color: transparent;
-    size: 2rem;
+.icon a{
     cursor: pointer;
 }
 

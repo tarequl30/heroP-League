@@ -19,9 +19,7 @@ const LeagueDetail = () => {
     },[idLeague])
     return (
         <>
-       
         <div className="bg"><h1> <img src={detail.strLogo} alt="" width="30%"/> </h1></div>
-        
         <div className="detailInfo">
             <div className="detail">
                 <h5>{detail.strLeagueAlternate}</h5>
@@ -41,7 +39,9 @@ const LeagueDetail = () => {
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quam repellendus exercitationem tempora deleniti, quas labore adipisci deserunt! Id ex amet, adipisci quia quibusdam accusantium earum! Blanditiis natus adipisci numquam.
              Corrupti veniam ex praesentium adipisci quidem vel et in architecto pariatur. Aspernatur quis provident ratione quia culpa, </p>
            <div className='icon'>
-                 <button><FontAwesomeIcon icon={faFacebookF } /></button> <button><FontAwesomeIcon icon={faInstagram } /></button>  <button><FontAwesomeIcon icon={faTwitter} /></button>
+                 <a href="https://www.facebook.com/premierleague" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF } /></a> 
+                 <a href="https://twitter.com/premierleague" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram } /></a>  
+                 <a href="https://instagram.com/premierleague" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter}    /></a>
            </div>
         </div>
         </>

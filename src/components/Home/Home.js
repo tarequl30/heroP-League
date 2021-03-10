@@ -10,7 +10,7 @@ const Home = () => {
         .then(data => setLeague(data.countrys))
     },[])
     return (
-        <div className="cover">
+        <div>
             <div className="bg"><h1>Hero Premiere League</h1></div>
             {
                 leagues.map(league => <League league={league}></League> )

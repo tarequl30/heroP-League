@@ -13,7 +13,6 @@ const League = (props) => {
             <button><Link style={{textDecoration:'none', color: 'white'}} to={`/about/${idLeague}`}>Explore</Link></button>
            </div>
        </div>
-        
     );
 };
 

@@ -1,5 +1,5 @@
 .leagueInfo{
-    background-color: rgba(73, 80, 80, 0.787);
+    background-color: rgba(235, 241, 241, 0.884);
     border: 1px solid gray;
     width: 300px;
     height: 430px;
@@ -9,8 +9,7 @@
     margin-top: 100px;
     margin-bottom: 20px;
     float: left;
-    border-radius: 20px
-   
+    border-radius: 20px 
 }
 .leagueInfo img{
     padding-left: 15px;
@@ -26,7 +25,6 @@ button{
     background: url('https://i.imgur.com/yLp3IzY.png');
     width: 100%;
 }
-
 .bg h1{
     margin: 0;
    display: flex;
