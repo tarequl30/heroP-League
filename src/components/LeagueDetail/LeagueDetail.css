@@ -1,0 +1,32 @@
+.detailInfo{
+    border: 1px solid gray;
+    padding-left: 30px;
+    background-color: rgba(74, 74, 172, 0.822);
+    margin: 30px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 100%;
+}
+.dummyInfo p{
+    margin: 20px 150px ;
+}
+.icon{
+   
+    margin-left: 280px;
+    padding-left: 300px;
+}
+.img{
+    float: right;
+}
+.icon button{
+    background-color: transparent;
+    size: 2rem;
+    cursor: pointer;
+}
+.icon button:hover{
+    trasaction: button;
+}
