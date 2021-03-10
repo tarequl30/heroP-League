@@ -11,20 +11,20 @@ import './App.css'
 function App() {
   return (
       <Router>
-      <Switch>
-        <Route exact path='/'>
-        <Home></Home>
-        </Route>
-        <Route path="/home">
-          <Home/>
-        </Route>
-        <Route path="/about/:idLeague">
-        <LeagueDetail></LeagueDetail>
-        </Route>
-        <Route path="*">
-          <NoMatch></NoMatch>
-        </Route>
-      </Switch>
+        <Switch>
+          <Route exact path='/'>
+             <Home></Home>
+          </Route>
+          <Route path="/home">
+             <Home/>
+          </Route>
+          <Route path="/about/:idLeague">
+             <LeagueDetail></LeagueDetail>
+          </Route>
+          <Route path="*">
+             <NoMatch></NoMatch>
+          </Route>
+        </Switch>
     </Router>
   );
 }

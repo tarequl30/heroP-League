@@ -7,18 +7,17 @@ import {  faFacebookF , faInstagram, faTwitter } from '@fortawesome/free-brands-
 import maleTeam from '../../Photo/male.png'
 import femaleTeam from '../../Photo/female.png'
 
-const LeagueDetail = () => {
+    const LeagueDetail = () => {
     const {idLeague} = useParams()
     const [detail, setDetail] = useState({})
     
-
     useEffect(()=> {
         fetch(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`)
         .then(res => res.json())
         .then(data => setDetail(data.leagues[0]))
     },[idLeague])
     return (
-        <>
+    <>
         <div className="bg"><h1> <img src={detail.strLogo} alt="" width="30%"/> </h1></div>
         <div className="detailInfo">
             <div className="detail">
@@ -44,9 +43,8 @@ const LeagueDetail = () => {
                  <a href="https://instagram.com/premierleague" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter}    /></a>
            </div>
         </div>
-        </>
+    </>
     );
 };
-
 
 export default LeagueDetail;
