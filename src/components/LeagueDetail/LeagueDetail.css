@@ -14,19 +14,22 @@
 .dummyInfo p{
     margin: 20px 150px ;
 }
+.detail{
+    width: 50%;
+    
+    margin-right: 300px;
+}
 .icon{
    
     margin-left: 280px;
     padding-left: 300px;
 }
-.img{
-    float: right;
+.img img{
+    margin-left: 200px;
 }
 .icon button{
     background-color: transparent;
     size: 2rem;
     cursor: pointer;
 }
-.icon button:hover{
-    trasaction: button;
-}
+

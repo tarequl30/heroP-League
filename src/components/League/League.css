@@ -1,8 +1,8 @@
 .leagueInfo{
-    background-color: rgba(97, 182, 182, 0.787);
+    background-color: rgba(73, 80, 80, 0.787);
     border: 1px solid gray;
     width: 300px;
-    height: 400px;
+    height: 430px;
     margin-left: 50px;
     padding-left: 50px;
     padding-top: 10px;
@@ -17,13 +17,10 @@
 }
 button{
     border: 0;
-    text-decoration: none;
     background-color: rgb(19, 37, 70);
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none;
-
 }
 .bg{
     background: url('https://i.imgur.com/yLp3IzY.png');
@@ -37,4 +34,7 @@ button{
    align-items: center;
    padding: 5rem;
    color: rgb(19, 233, 233);
+}
+.background{
+    background: gray!important;
 }

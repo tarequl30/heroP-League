@@ -23,15 +23,15 @@ const LeagueDetail = () => {
         <div className="bg"><h1> <img src={detail.strLogo} alt="" width="30%"/> </h1></div>
         
         <div className="detailInfo">
-            <div>
-                <h2>{detail.strLeagueAlternate}</h2>
+            <div className="detail">
+                <h5>{detail.strLeagueAlternate}</h5>
                 <p>Founded : {detail.intFormedYear}</p>
                 <p>Country: {detail.strCountry}</p>
                 <p>Sports Type :{detail.strSport}</p>
                 <p>Gender : {detail.strGender}</p>
             </div> 
             <div className="img">
-                <img src={maleTeam} alt="" width="30%"/>
+                <img src={detail.strGender === 'Male' ? maleTeam : femaleTeam  } alt="" width="50%"/>
             </div>
         </div>
         <div className="dummyInfo">
